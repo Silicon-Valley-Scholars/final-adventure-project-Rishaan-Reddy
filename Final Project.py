@@ -39,7 +39,7 @@ else:
             health = 30
             print("You pick up the shield and use it to block the bear's attacks. You manage to escape the cave, but you are injured with only", health, "health points left.")
             print("Your inventory:", inventory)
-            print("You find a way out of the cave and see the light again. You walk out of the cave and find yourself stranded on a deserted island.")
+            print("You find a way out of the cave and see the light again. The time is", random.randint(530, 558), "and you are hungry and thirsty. You need to find food and water.")
             print("You find an apple tree and a cave on the island. Do you want to eat an apple (+30 health points) or go into the cave?")
             choice = input("Type 'apple' to eat an apple or 'cave' to go into the cave: ")
             if choice.lower() == "apple":
